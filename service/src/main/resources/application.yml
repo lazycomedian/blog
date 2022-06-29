@@ -1,0 +1,19 @@
+# 配置端口
+server:
+  port: 3011
+  servlet:
+    session:
+      timeout: 21600
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://121.196.238.114:3306/blog_dev?serverTimezone=UTC
+    username: root
+    password: wangQQ970726
+
+mybatis-plus:
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
