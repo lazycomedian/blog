@@ -1,0 +1,39 @@
+{
+  "name": "blog-admin",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "sentimental-react-scripts start",
+    "build": "sentimental-react-scripts build"
+  },
+  "keywords": [],
+  "author": "lazyComedian",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "nprogress": "^0.2.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-router-dom": "^6.3.0",
+    "sentimental-react-scripts": "^0.1.4",
+    "typescript": "^4.7.2"
+  },
+  "devDependencies": {
+    "@types/nprogress": "^0.2.0",
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.5"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

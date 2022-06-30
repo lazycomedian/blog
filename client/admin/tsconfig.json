@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "rootDir": "src",
+    "outDir": "build",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "baseUrl": "./", // 根路径
+    "paths": { "@/*": ["src/*"] },
+
+    "isolatedModules": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "experimentalDecorators": true
+  },
+  "include": ["src"]
+}
