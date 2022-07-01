@@ -11,12 +11,19 @@
   "author": "lazyComedian",
   "license": "ISC",
   "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.8.6",
+    "@mui/styled-engine-sc": "^5.8.0",
     "axios": "^0.27.2",
+    "notistack": "^2.0.5",
     "nprogress": "^0.2.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-router-dom": "^6.3.0",
     "sentimental-react-scripts": "^0.1.4",
+    "styled-components": "^5.3.5",
     "typescript": "^4.7.2"
   },
   "devDependencies": {

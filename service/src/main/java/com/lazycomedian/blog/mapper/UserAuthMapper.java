@@ -1,0 +1,1 @@
+package com.lazycomedian.blog.mapper;import com.baomidou.mybatisplus.core.mapper.BaseMapper;import com.lazycomedian.blog.entity.UserAuthEntity;import org.apache.ibatis.annotations.Mapper;/** * 用户鉴权 * * @author lazyComedian * @date 2022/6/30 10:45 **/@Mapperpublic interface UserAuthMapper extends BaseMapper<UserAuthEntity> {}

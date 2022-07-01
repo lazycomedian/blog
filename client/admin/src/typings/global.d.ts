@@ -10,3 +10,5 @@ declare interface IResponse<D = AnyObject> {
   /** 提示信息  */
   readonly message: string;
 }
+
+declare type IResponseError = Omit<IResponse, 'data'>;

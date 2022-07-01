@@ -17,6 +17,8 @@
     "baseUrl": "./", // 根路径
     "paths": { "@/*": ["src/*"] },
 
+    "useUnknownInCatchVariables": false, // 将trycatch 中err的类型默认置为any
+
     "isolatedModules": true,
     "suppressImplicitAnyIndexErrors": true,
     "noEmit": true,

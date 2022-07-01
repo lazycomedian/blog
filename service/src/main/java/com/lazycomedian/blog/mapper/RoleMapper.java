@@ -1,0 +1,1 @@
+package com.lazycomedian.blog.mapper;import com.baomidou.mybatisplus.core.mapper.BaseMapper;import com.lazycomedian.blog.entity.RoleEntity;import org.apache.ibatis.annotations.Mapper;/** * 角色 * * @author lazyComedian * @date 2022/7/1 10:43 **/@Mapperpublic interface RoleMapper extends BaseMapper<RoleEntity> {}

@@ -1,7 +1,7 @@
+import { HttpMethods, HttpStatus } from '@/constants/enums/service';
+import axios, { AxiosInstance, AxiosRequestConfig, Canceler } from 'axios';
 import NProgress from 'nprogress';
 import 'nprogress/nprogress.css';
-import axios, { AxiosInstance, AxiosRequestConfig, Canceler } from 'axios';
-import { HttpMethods, HttpStatus } from '@/constants/enums/service';
 
 export default class HttpServiceRequest {
   private readonly instance: AxiosInstance;
@@ -97,7 +97,7 @@ export default class HttpServiceRequest {
       if (method === HttpMethods.DELETE) data = { data };
 
       return new Promise<IResponse<R>>((resolve, reject) => {
-        this.instance[method]<any, IResponse<R> | null>(url, data)
+        this.instance[method]<any, IResponse<R> | null>('/api' + url, data)
           .then(response => {
             if (response) {
               if (response.statusCode === HttpStatus.OK) resolve(response);
